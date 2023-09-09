@@ -1,0 +1,37 @@
+main {
+    min-height: calc(100vh - 160px);
+  }
+
+/* Estilos para el contenedor de las tarjetas */
+.contenedor-tarjetas {
+  display: flex;
+  flex-wrap: wrap; /* Envuelve las tarjetas en múltiples filas */
+  justify-content: space-between; /* Espacio entre las tarjetas en la fila */
+}
+
+/* Estilos para cada tarjeta individual */
+.tarjeta {
+  width: 60%; /* Ancho deseado para cada tarjeta (ajusta según tus preferencias) */
+  margin: 0 auto; /* Centrar horizontalmente la tarjeta */
+  margin-bottom: 20px; /* Espacio entre las tarjetas en la columna */
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 20px; /* Aumenta el espacio interno para que sea más grande */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  overflow: hidden;
+}
+
+/* Estilos para la imagen */
+.tarjeta img {
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+/* Estilos para la descripción */
+.descripcion {
+  margin-top: 10px;
+  text-align: justify;
+  overflow-y: auto;
+  max-height: 60%;
+}
